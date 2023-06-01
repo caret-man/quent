@@ -1,0 +1,23 @@
+body {
+  margin: 40px;
+  background: grey;
+}
+
+h1 {
+  padding: 10px;
+  background-color: #eebf68;
+  border-radius: 20px;
+}
+
+.overall {
+  padding: 10px;
+  background-color: #eebf68;
+  border-radius: 20px;
+}
+
+.topics {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eebf68;
+  border-radius: 20px;
+}
