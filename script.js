@@ -1,6 +1,5 @@
-const overall = {'course': 'Python Core',
-                'period': 'sep 2, 2022 - may 26, 2023 (inclusive)',
-                'study_hours': '58.5'}
+const overall = {'period': 'sep 2, 2022 - may 26, 2023 (inclusive)',
+                'total_study_hours': '58.5'}
 const topics = ['Introduction to OOP - {theory: 0:40, practice: 1:30}',
                 'Classes - {theory: 0:40, practice: 1:30}',
                 'Class Instance - {theory: 0:40, practice: 2:00}',
@@ -37,12 +36,20 @@ const topics = ['Introduction to OOP - {theory: 0:40, practice: 1:30}',
 
 let overall_dom = document.querySelector('.overall');
 for (const [k, v] of Object.entries(overall)) {
-   overall_dom.innerHTML += `<p>${k}: <b>${v}</b></p>`;
+  let div = document.createElement("div");
+  div.classList.add("box");
+  let p = document.createElement("p");
+  div.append(`${k}: ${v}`, p);
+
+  document.querySelector('.content').appendChild(div);
 };
 
 
 let topics_dom = document.querySelector('.topics');
 for (const topic of topics) {
-   topics_dom.innerHTML += `<p><b>${topic.split(' - ')[0]}: </b>${topic.split(' - ')[1]}</p>`
-
+  let div = document.createElement("div");
+  div.classList.add("box");
+  let p = document.createElement("p");
+  div.append(`${topic.split(' - ')[0]}: ${topic.split(' - ')[1]}`, p);
+  document.querySelector('.content-1').appendChild(div);
 };
