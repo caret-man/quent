@@ -1,56 +1,60 @@
 html {
-    margin: 0 auto;
-    max-width: 900px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 body {
-  margin: 40px;
+margin: 40px;
 }
 
 h1 {
-  border: solid grey;
-  text-align: center;
-  padding: 10px;
-  background-color: #dbdbdb;
-  border-radius: 20px;
+border: solid grey;
+text-align: center;
+padding: 10px;
+background-color: #dbdbdb;
+border-radius: 20px;
 }
 
 
 .course {
-  border: solid grey 1px;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 800;
-  margin: 20px 0 0;
-  padding: 30px 0px 30px;
-  background-color: #aae1a8;
-  border-radius: 5px;
+border: solid grey 1px;
+text-align: center;
+font-size: 50px;
+font-weight: 800;
+margin: 20px 0 0;
+padding: 30px 0px 30px;
+background-color: #aae1a8;
+border-radius: 5px;
 }
 
 .student,
 .overall, 
 .topics {
-  border: solid grey;
-  margin: 20px 0;
-  padding: 20px;
-  background-color: #f8f6f2;
-  border-radius: 20px;
+border: solid grey;
+margin: 20px 0;
+padding: 20px;
+background-color: #f8f6f2;
+border-radius: 20px;
 }
 
 .box {
-  border: solid grey 1px;
-  font-size: 18px;
-  margin: 5px;
-  padding: 15px 20px 0;
-  background-color: #f5f1e0;
-  border-radius: 5px;
+border: solid grey 1px;
+font-size: 18px;
+margin: 5px;
+padding: 15px 20px 0;
+background-color: #f5f1e0;
+border-radius: 5px;
+}
+
+.project-name-box {
+  background-color: rgb(237, 235, 235);
 }
 
 .name {
-  border: solid grey 1px;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 800;
-  background-color: #fff;
-  border-radius: 5px;
+border: solid grey 1px;
+text-align: center;
+font-size: 50px;
+font-weight: 800;
+background-color: #fff;
+border-radius: 5px;
 }
