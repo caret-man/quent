@@ -19,7 +19,7 @@ border-radius: 20px;
 .course {
 border: solid grey 1px;
 text-align: center;
-font-size: 50px;
+font-size: 35px;
 font-weight: 800;
 margin: 20px 0 0;
 padding: 30px 0px 30px;
@@ -48,13 +48,20 @@ border-radius: 5px;
 
 .project-name-box {
   background-color: rgb(237, 235, 235);
+  font-weight: 800;
 }
 
 .name {
 border: solid grey 1px;
 text-align: center;
-font-size: 50px;
+font-size: 35px;
 font-weight: 800;
 background-color: #fff;
 border-radius: 5px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
